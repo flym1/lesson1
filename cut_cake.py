@@ -5,4 +5,8 @@ def cut_cake(parts):
 		return 'С ума посходили?'
 
 cake = cut_cake([1 , 2 , 3])
-print(cake)
+# print(cake)
+
+def something(x)
+
+
