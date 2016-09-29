@@ -5,12 +5,13 @@ dial = {
 		}
 def get_dial(key, dial):
 	return dial.get(key)
+
 def ask_user(dial):
 	while True:
 		try:
 			user_input = input("Скажи что-нибудь: ")
-			dial = get_dial(user_input, dial)
-			print(dial)
+			answer = get_dial(user_input, dial)
+			print(answer)
 			if user_input == "пока":
 				break
 		except KeyboardInterrupt:
